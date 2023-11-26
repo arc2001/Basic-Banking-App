@@ -4,7 +4,7 @@ const path = require('path')
 const dotenv = require('dotenv').config()
  console.log(process.env.MONGOURI)
 const app = express()
-const URI = "mongodb+srv://admin_anjali:Anjali123@cluster0.zjxqc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const URI = "";
 try {
   mongoose.connect(URI, {
     useNewUrlParser: true,
